@@ -48,7 +48,12 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 2em;
     width: 60%;
+}
+
+.item {
+    margin: 1em;
 }
 
 /* Add a light gray border to each list item */
@@ -56,6 +61,7 @@ ul li {
     width: 100%;
     display: table-row;
     border: 2px solid lightgray;
+
     border-bottom: none;
     text-align: center;
     padding: 10px;
