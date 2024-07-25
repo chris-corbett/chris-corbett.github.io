@@ -1,0 +1,74 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a default font and font size */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Add some spacing between elements */
+body > * {
+    margin-bottom: 10px;
+}
+
+/* Center the content horizontally */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Add a border and padding to the container */
+.container {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+/* Add some basic styles to headings */
+h1, h2, h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Add some basic styles to paragraphs */
+p {
+    color: #666;
+    line-height: 1.5;
+}
+
+
+/* Center the unordered list */
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+}
+
+/* Add a light gray border to each list item */
+ul li {
+    width: 100%;
+    display: table-row;
+    border: 2px solid lightgray;
+    border-bottom: none;
+    text-align: center;
+    padding: 10px;
+}
+
+ul li:last-child {
+    border-bottom: 2px solid lightgray;
+}
+
+/* Style the unordered list like a table */
+ul {
+    /* display: table; */
+    border-collapse: collapse;
+}
+
+
